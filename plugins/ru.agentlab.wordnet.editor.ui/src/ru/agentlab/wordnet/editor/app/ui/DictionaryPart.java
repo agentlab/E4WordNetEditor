@@ -94,12 +94,11 @@ public class DictionaryPart {
                 PointerTargetNodeList antonyms = PointerUtils.getAntonyms(word.getSenses().get(0));
                 PointerTargetNodeList holonyms = PointerUtils.getHolonyms(word.getSenses().get(0));
                 PointerTargetNodeList CoordinateTerms = PointerUtils.getCoordinateTerms(word.getSenses().get(0));
-//                WordPart wordsChange = WordPart.getWp();
-//                wordsChange.initializeTree(name, hypernyms, hyponyms, synonyms, antonyms, holonyms, CoordinateTerms);
+    //                WordPart wordsChange = WordPart.getWp();
+    //                wordsChange.initializeTree(name, hypernyms, hyponyms, synonyms, antonyms, holonyms, CoordinateTerms);
             }
             catch (JWNLException e)
             {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }

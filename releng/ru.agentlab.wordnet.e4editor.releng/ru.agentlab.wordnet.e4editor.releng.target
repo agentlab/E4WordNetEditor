@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="Generated from WordNet E4 Editor" sequenceNumber="1">
+<target name="Generated from WordNet E4 Editor" sequenceNumber="4">
   <locations>
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="net.sf.extjwnl" version="0.0.0"/>
       <unit id="net.sf.extjwnl.component" version="0.0.0"/>
       <unit id="net.sf.extjwnl.data.wn31" version="0.0.0"/>
       <unit id="net.sf.extjwnl.feature.feature.group" version="0.0.0"/>
-      <unit id="net.sf.extjwnl.sdk.feature.feature.group" version="0.0.0"/>
       <unit id="net.sf.extjwnl.service" version="0.0.0"/>
-      <unit id="net.sf.extjwnl.tests" version="0.0.0"/>
       <unit id="net.sf.extjwnl.utilities" version="0.0.0"/>
-      <unit id="net.sf.extjwnl.utilities.tests" version="0.0.0"/>
       <repository location="http://agentlab.ru/p2/orbit/net.sf.extjwnl/"/>
     </location>
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
@@ -20,21 +17,16 @@
       <repository location="http://agentlab.ru/pd/p2/eclipseorbit/"/>
     </location>
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
-      <unit id="org.eclipse.swt.dummyfragments.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.swt.gtk.linux.aarch64" version="0.0.0"/>
-      <unit id="org.eclipse.swt.gtk.linux.arm" version="0.0.0"/>
-      <unit id="org.eclipse.swt.gtk.solaris.sparc" version="0.0.0"/>
-      <unit id="org.eclipse.swt.gtk.solaris.x86" version="0.0.0"/>
-      <repository location="https://eclipseguru.github.io/missing-swt-fragments/"/>
-    </location>
-    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="a.jre.javase" version="0.0.0"/>
       <unit id="ch.qos.logback.classic" version="0.0.0"/>
       <unit id="ch.qos.logback.core" version="0.0.0"/>
-      <unit id="com.google.gson" version="0.0.0"/>
+      <unit id="ch.qos.logback.slf4j" version="0.0.0"/>
       <unit id="com.google.guava" version="0.0.0"/>
+      <unit id="com.google.inject" version="0.0.0"/>
       <unit id="com.google.inject.assistedinject" version="0.0.0"/>
+      <unit id="com.google.inject.multibindings" version="0.0.0"/>
       <unit id="com.ibm.icu" version="0.0.0"/>
+      <unit id="com.ibm.icu.base" version="0.0.0"/>
       <unit id="com.jcraft.jsch" version="0.0.0"/>
       <unit id="com.sun.el" version="0.0.0"/>
       <unit id="config.a.jre.javase" version="0.0.0"/>
@@ -114,8 +106,6 @@
       <unit id="org.eclipse.e4.core.services" version="0.0.0"/>
       <unit id="org.eclipse.e4.emf.xpath" version="0.0.0"/>
       <unit id="org.eclipse.e4.rcp.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.emf.ui" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.services" version="0.0.0"/>
       <unit id="org.eclipse.e4.ui.bindings" version="0.0.0"/>
       <unit id="org.eclipse.e4.ui.css.core" version="0.0.0"/>
       <unit id="org.eclipse.e4.ui.css.swt" version="0.0.0"/>
@@ -170,6 +160,21 @@
       <unit id="org.eclipse.equinox.ds" version="0.0.0"/>
       <unit id="org.eclipse.equinox.event" version="0.0.0"/>
       <unit id="org.eclipse.equinox.executable.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.cocoa.macosx.x86_64" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.aix.ppc" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.aix.ppc64" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.hpux.ia64" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.linux.ppc" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.linux.ppc64" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.linux.ppc64le" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.linux.s390" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.linux.s390x" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.linux.x86" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.linux.x86_64" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.solaris.sparcv9" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.gtk.solaris.x86_64" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.win32.win32.x86" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.executable_root.win32.win32.x86_64" version="0.0.0"/>
       <unit id="org.eclipse.equinox.frameworkadmin" version="0.0.0"/>
       <unit id="org.eclipse.equinox.frameworkadmin.equinox" version="0.0.0"/>
       <unit id="org.eclipse.equinox.http.jetty" version="0.0.0"/>
@@ -261,12 +266,7 @@
       <unit id="org.eclipse.help.ui" version="0.0.0"/>
       <unit id="org.eclipse.help.webapp" version="0.0.0"/>
       <unit id="org.eclipse.jdt.annotation" version="0.0.0"/>
-      <unit id="org.eclipse.jdt.core" version="0.0.0"/>
-      <unit id="org.eclipse.jdt.core.manipulation" version="0.0.0"/>
-      <unit id="org.eclipse.jdt.debug" version="0.0.0"/>
       <unit id="org.eclipse.jdt.junit.runtime" version="0.0.0"/>
-      <unit id="org.eclipse.jdt.launching" version="0.0.0"/>
-      <unit id="org.eclipse.jdt.ui" version="0.0.0"/>
       <unit id="org.eclipse.jetty.continuation" version="0.0.0"/>
       <unit id="org.eclipse.jetty.http" version="0.0.0"/>
       <unit id="org.eclipse.jetty.io" version="0.0.0"/>
@@ -368,9 +368,6 @@
       <unit id="org.eclipse.ui.workbench" version="0.0.0"/>
       <unit id="org.eclipse.ui.workbench.texteditor" version="0.0.0"/>
       <unit id="org.eclipse.update.configurator" version="0.0.0"/>
-      <unit id="org.eclipse.xtend.lib" version="0.0.0"/>
-      <unit id="org.eclipse.xtend.lib.macro" version="0.0.0"/>
-      <unit id="org.eclipse.xtext.xbase.lib" version="0.0.0"/>
       <unit id="org.hamcrest.core" version="0.0.0"/>
       <unit id="org.hamcrest.library" version="0.0.0"/>
       <unit id="org.junit" version="0.0.0"/>
@@ -560,10 +557,7 @@
       <repository location="http://download.eclipse.org/releases/neon"/>
     </location>
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
-      <unit id="ch.qos.logback.slf4j" version="0.0.0"/>
-      <unit id="com.google.inject" version="0.0.0"/>
-      <unit id="com.google.inject.multibindings" version="0.0.0"/>
-      <unit id="com.ibm.icu.base" version="0.0.0"/>
+      <unit id="com.google.gson" version="0.0.0"/>
       <unit id="javax.annotation.jre" version="0.0.0"/>
       <unit id="javax.xml.jre" version="0.0.0"/>
       <unit id="org.eclipse.emf.databinding" version="0.0.0"/>
@@ -584,7 +578,6 @@
       <unit id="org.eclipse.fx.emf.databinding" version="0.0.0"/>
       <unit id="org.eclipse.fx.emf.edit.ui" version="0.0.0"/>
       <unit id="org.eclipse.fx.formats.svg" version="0.0.0"/>
-      <unit id="org.eclipse.fx.javafx" version="0.0.0"/>
       <unit id="org.eclipse.fx.osgi" version="0.0.0"/>
       <unit id="org.eclipse.fx.osgi.util" version="0.0.0"/>
       <unit id="org.eclipse.fx.runtime.e4fx.feature.feature.group" version="0.0.0"/>
@@ -611,34 +604,18 @@
       <unit id="org.eclipse.fx.ui.workbench.renderers.base" version="0.0.0"/>
       <unit id="org.eclipse.fx.ui.workbench.renderers.fx" version="0.0.0"/>
       <unit id="org.eclipse.fx.ui.workbench.services" version="0.0.0"/>
+      <unit id="org.eclipse.xtend.lib" version="0.0.0"/>
+      <unit id="org.eclipse.xtend.lib.macro" version="0.0.0"/>
+      <unit id="org.eclipse.xtext.xbase.lib" version="0.0.0"/>
       <unit id="org.slf4j.ext" version="0.0.0"/>
       <unit id="org.slf4j.jul" version="0.0.0"/>
       <unit id="org.slf4j.log4j" version="0.0.0"/>
       <repository location="http://download.eclipse.org/efxclipse/runtime-nightly/site"/>
     </location>
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
-      <unit id="org.objenesis" version="0.0.0"/>
-      <repository location="http://download.eclipse.org/eclipse/updates/4.6/R-4.6-201606061100/"/>
-    </location>
-    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
-      <unit id="org.eclipse.e4.tools.bundle.spy" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.bundle.spy.feature.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.context.spy" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.context.spy.feature.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.css.spy" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.css.spy.feature.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.event.spy" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.event.spy.feature.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.model.spy" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.model.spy.feature.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.preference.spy" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.preference.spy.feature.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.e4.tools.spy" version="0.0.0"/>
-      <repository location="http://download.eclipse.org/e4/snapshots/org.eclipse.e4.tools/latest"/>
-    </location>
-    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.hamcrest.generator" version="0.0.0"/>
       <unit id="org.hamcrest.integration" version="0.0.0"/>
+      <unit id="org.objenesis" version="0.0.0"/>
       <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository"/>
     </location>
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
@@ -665,6 +642,14 @@
       <unit id="org.mockito" version="0.0.0"/>
       <unit id="org.mockito.feature.feature.group" version="0.0.0"/>
       <repository location="http://agentlab.ru/eclipse/update/org.mockito/1.10.19/"/>
+    </location>
+    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+      <unit id="org.eclipse.swt.dummyfragments.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.swt.gtk.linux.aarch64" version="0.0.0"/>
+      <unit id="org.eclipse.swt.gtk.linux.arm" version="0.0.0"/>
+      <unit id="org.eclipse.swt.gtk.solaris.sparc" version="0.0.0"/>
+      <unit id="org.eclipse.swt.gtk.solaris.x86" version="0.0.0"/>
+      <repository location="http://agentlab.ru/p2/orbit/missing-swt-fragments/updates/nightly/"/>
     </location>
   </locations>
 </target>
